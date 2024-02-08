@@ -1,3 +1,6 @@
+import React from "react";
+import SkillsBar from "./SkillsBar";
+
 function professionnel() {
     return (
         <section>
@@ -9,6 +12,10 @@ function professionnel() {
                     <p className="absolute text-white pt-40 text-3xl z-10 text-center">
                         Mes connaissances en logiciel
                     </p>
+
+                    <div className="absolute z-20">
+                        <SkillsBar />
+                    </div>
                 </div>
                 <img
                     className="object-fill brightness-50"
